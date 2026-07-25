@@ -1,419 +1,122 @@
-<!DOCTYPE html>
-<html lang="pt-BR" data-theme="dark">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clube Amplexo Educação | Campeões Mundiais</title>
-  <meta name="description" content="Clube de Enriquecimento Curricular focado em Matemática, Ciências e Tecnologia para competições nacionais e internacionais.">
-  <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="theme-color" content="#06060a">
-  <link rel="canonical" href="https://amplexoedu.com/">
-  <link rel="alternate" hreflang="pt-BR" href="https://amplexoedu.com/">
-  <link rel="alternate" hreflang="en-US" href="https://amplexoedu.com/en/">
-  <link rel="alternate" hreflang="x-default" href="https://amplexoedu.com/">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:site_name" content="Clube Amplexo Educação">
-  <meta property="og:title" content="Clube Amplexo Educação | Campeões Mundiais">
-  <meta property="og:description" content="Clube de Enriquecimento Curricular focado em Matemática, Ciências e Tecnologia para competições nacionais e internacionais.">
-  <meta property="og:url" content="https://amplexoedu.com/">
-  <meta property="og:image" content="https://amplexoedu.com/assets/images/og/home-pt.jpg">
-  <meta property="og:image:secure_url" content="https://amplexoedu.com/assets/images/og/home-pt.jpg">
-  <meta property="og:image:type" content="image/jpeg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Alunos Amplexo Educação">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@amplexoedu">
-  <meta name="twitter:title" content="Clube Amplexo Educação | Campeões Mundiais">
-  <meta name="twitter:description" content="Clube de Enriquecimento Curricular focado em Matemática, Ciências e Tecnologia para competições nacionais e internacionais.">
-  <meta name="twitter:image" content="https://amplexoedu.com/assets/images/og/home-pt.jpg">
-  <meta name="twitter:image:alt" content="Alunos Amplexo Educação">
-  <link rel="preload" as="image" href="assets/images/home-hero.jpg" fetchpriority="high">
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "EducationalOrganization",
-      "name": "Clube Amplexo Educação",
-      "url": "https://amplexoedu.com/",
-      "logo": "https://amplexoedu.com/assets/images/redlogo.png",
-      "image": "https://amplexoedu.com/assets/images/home-hero.jpg",
-      "description": "Clube de Enriquecimento Curricular focado em Matemática, Ciências e Tecnologia para competições nacionais e internacionais.",
-      "telephone": "+55-11-91100-9793",
-      "email": "pedagogico@amplexoedu.com",
-      "sameAs": [
-        "https://www.instagram.com/amplexoedu",
-        "https://www.youtube.com/@Amplexoeducacao",
-        "https://www.linkedin.com/company/amplexo-educa%C3%A7%C3%A3o/",
-        "https://amplexoedu.github.io/"
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "BR"
-      },
-      "inLanguage": "pt-BR"
-    }
-  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amplexo Educação | Clube de enriquecimento curricular</title>
+  <meta name="description" content="Toda criança merece um desafio do seu tamanho. Conheça as trilhas de enriquecimento curricular da Amplexo.">
+  <meta name="theme-color" content="#f7f4ef">
   <link rel="icon" href="assets/images/redlogo.png">
-  <script>
-    (function(){
-      const t = localStorage.getItem('theme') || 'dark';
-      document.documentElement.setAttribute('data-theme', t);
-      if (!localStorage.getItem('langDone')) {
-        localStorage.setItem('langDone','1');
-        if ((navigator.language||'').startsWith('en')) location.replace('./en/');
-      }
-    })();
-  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap"></noscript>
-  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&family=Spectral:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/home-reference.css">
 </head>
-<body>
-  <a href="#main" class="skip-link">Pular para o conteúdo principal</a>
+<body id="inicio">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 
-  <div class="cyber-grid"></div>
-
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="nav-inner">
-      <div class="logo glitch" data-text="Clube Amplexo" aria-label="Clube Amplexo">Clube <span>Amplexo</span></div>
-      <div id="siteNav" class="nav-menu" aria-label="Menu principal">
-        <a href="./" class="nav-link active" aria-current="page">Início</a>
-        <a href="./escola-azul/" class="nav-link">Escola Azul</a>
-        <a href="./premiacoes/" class="nav-link">Premiações</a>
-        <a href="./projetos-que-abraçam/" class="nav-link">Projetos que Abraçam</a>
-        <div class="nav-item nav-item-has-submenu">
-          <a href="./competicoes/" class="nav-link">Competições</a>
-          <div class="nav-submenu" aria-label="Submenu Competições">
-            <a href="./acsl/" class="nav-sublink">ACSL</a>
-            <a href="./smeta/" class="nav-sublink">SMETA</a>
-          </div>
-        </div>
-        <a href="https://amplexoedu.blogspot.com/?view=magazine" target="_blank" rel="noopener noreferrer" class="nav-link">Blog</a>
-        <a href="https://amplexoeducacao.com" target="_blank" rel="noopener noreferrer" class="nav-link nav-link-special">Plataforma de Aulas</a>
-      </div>
-      <div class="nav-controls">
-        <button id="navToggle" class="ctrl-btn nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="siteNav">
-          <span class="nav-toggle-line"></span>
-          <span class="nav-toggle-line"></span>
-          <span class="nav-toggle-line"></span>
-        </button>
-        <button id="themeToggle" class="ctrl-btn" aria-label="Alternar tema">
-          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-        </button>
-        <a href="./en/" class="ctrl-btn lang-btn" aria-label="English">🇺🇸 EN</a>
-      </div>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#inicio" aria-label="Voltar ao início da página">
+        <img src="assets/images/amplexo-logo-full.png" alt="Amplexo Educação">
+      </a>
     </div>
-  </nav>
+  </header>
 
-  <!-- HERO -->
-  <main id="main">
-  <section class="hero" aria-label="Apresentação">
-    <div class="hero-inner">
-      <div>
-        <div class="hero-label hero-label-home">
-          <span class="hero-badge long">🥇 ICO - 1º lugar mundial</span>
-          <span class="hero-badge long">🏆 Matemática - 1º lugar mundial</span>
+  <main id="conteudo">
+    <section id="amplexo" class="hero">
+      <div class="hero-inner">
+        <div class="hero-content reveal">
+          <p class="eyebrow amber">Educar para o bem</p>
+          <h1>Transformar no presente.<br>Impactar para sempre.</h1>
+          <p class="hero-copy">Colaboramos para a formação humana e acadêmica de crianças e jovens, criando pontes para as melhores oportunidades de aprendizagem. Unimos a excelência do estudo em alto nível aos valores humanos para formar cidadãos confiantes e preparados para o futuro. Por meio de projetos, aulas e mentorias, enriquecemos o currículo dos estudantes, cultivando a responsabilidade social e o prazer pelo conhecimento, tudo em um ambiente seguro, onde todos se abraçam, torcem uns pelos outros e aprendem juntos.</p>
         </div>
-        <h1 class="hero-title glitch" data-text="Seu filho pode ser um campeão mundial.">
-          Seu filho pode ser um<br><span class="highlight">campeão mundial.</span>
-        </h1>
-        <p class="hero-sub">Conheça a Amplexo Educação — o clube que já conquistou o topo do pódio no Brasil e no mundo com mais de +3 mil premiações conquistadas.</p>
-        <div class="hero-cta">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUua_CAhmNwv0sIfndhKfTLSTcGc-GPORm8v8bJSgAc5Z_cA/viewform" target="_blank" rel="noopener noreferrer" class="btn large">Lista de Espera 2026</a>
-          <a href="https://wa.me/5511911009793" target="_blank" rel="noopener noreferrer" class="btn-ghost large">WhatsApp +55 (11) 9 1100-9793</a>
-        </div>
+        <figure class="hero-photo" aria-label="Estudantes da Amplexo reunidas">
+          <img src="assets/images/amplexo-estudantes.jpg" alt="Quatro estudantes da Amplexo sorrindo e se abraçando" width="1800" height="2700">
+        </figure>
       </div>
-      <div class="hero-visual">
-        <div class="hero-glow"></div>
-        <div class="hero-img-wrap">
-          <img src="assets/images/home-hero.jpg" alt="Alunos Amplexo Educação" loading="eager" fetchpriority="high" decoding="async">
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- STATS -->
-  <div class="stats-strip" role="region" aria-label="Estatísticas">
-    <div class="stats-inner">
-      <div class="reveal">
-        <div class="stat-num" data-target="300" data-prefix="+" data-suffix="">+300</div>
-        <div class="stat-label">Crianças Impactadas</div>
+    <section class="credibility shell" aria-labelledby="cred-title">
+      <div class="transition-line" aria-hidden="true"></div>
+      <h2 id="cred-title" class="sr-only">Indicadores de credibilidade</h2>
+      <div class="metrics reveal">
+        <article><strong>Prestígio</strong><span>Brands For Good Awards 2026<br>Edu For Good – Distinction</span></article>
+        <article><strong>+500</strong><span>Famílias impactadas</span></article>
+        <article><strong>1º lugar</strong><span>Em olimpíadas nacionais e internacionais</span></article>
+        <article><strong>+3.000</strong><span>Premiações</span></article>
       </div>
-      <div class="reveal">
-        <div class="stat-num" data-target="3000" data-prefix="+" data-suffix="">+3 Mil</div>
-        <div class="stat-label">Premiações</div>
-      </div>
-      <div class="reveal">
-        <div class="stat-num">1º</div>
-        <div class="stat-label long">1º lugar MUNDIAL na Olimpíada Internacional de Computação (ICO) - 2025</div>
-      </div>
-      <div class="reveal">
-        <div class="stat-num">1º</div>
-        <div class="stat-label long">1º lugar MUNDIAL em Matemática (Singapore Math Challenge) - 2025</div>
-      </div>
-    </div>
-  </div>
+    </section>
 
-  <!-- O QUE É -->
-  <section>
-    <div class="container">
-      <div class="reveal tc">
-        <div class="section-label">✦ O Clube</div>
-        <h2 class="section-title">O que é o Clube Amplexo Educação? 🤔</h2>
-      </div>
-      <div class="cards-grid">
-        <div class="feature-card reveal">
-          <h3 class="card-title"><span class="card-emoji" aria-hidden="true">💎</span> Enriquecimento Curricular</h3>
-          <p class="card-text">Somos um Clube focado em desenvolver habilidades e conhecimentos que vão além da sala de aula tradicional.</p>
-        </div>
-        <div class="feature-card reveal">
-          <h3 class="card-title"><span class="card-emoji" aria-hidden="true">🎓</span> Alto Nível Acadêmico</h3>
-          <p class="card-text">Preparamos seu filho para se destacar no mundo acadêmico e em competições de alto nível!</p>
-        </div>
-        <div class="feature-card reveal">
-          <h3 class="card-title"><span class="card-emoji" aria-hidden="true">💻</span> Aulas AO VIVO</h3>
-          <p class="card-text">Via Google Meet com interação em tempo real com professores especialistas + plataforma com aulas gravadas.</p>
-        </div>
-        <div class="feature-card reveal">
-          <h3 class="card-title"><span class="card-emoji" aria-hidden="true">🥇</span> Olimpíadas</h3>
-          <p class="card-text">Treinamento especializado para as principais competições: OBMEP, OBA, ICO, Singapore Math e muito mais.</p>
-        </div>
-        <div class="feature-card reveal">
-          <h3 class="card-title"><span class="card-emoji" aria-hidden="true">🛠️</span> Projetos Pedagógicos</h3>
-          <p class="card-text">Aprendizado mão na massa estimulando criatividade e raciocínio. Como nossa parceria com o Super Autor.</p>
-        </div>
-        <div class="feature-card reveal">
-          <h3 class="card-title"><span class="card-emoji" aria-hidden="true">📝</span> Material Exclusivo</h3>
-          <p class="card-text">Cadernos de estudos e listas de treinamento de alta qualidade desenvolvidos especialmente para nossos alunos.</p>
+    <section id="clube" class="manifesto section-pad">
+      <div class="narrow reveal">
+        <p class="eyebrow teal">Propósito</p>
+        <h2>Abrace e seja abraçado pela Educação</h2>
+        <div class="editorial-copy">
+          <p>O Clube Amplexo é mais do que uma iniciativa pedagógica: é um movimento de transformação. Nós impulsionamos o desejo pelo saber em alto nível, encorajamos os alunos a superarem grandes desafios e damos voz às suas ideias, respeitando a bagagem e a individualidade de cada ser humano.</p>
+          <p>Aqui, a excelência acadêmica caminha lado a lado com a empatia e a responsabilidade social, porque formar mentes brilhantes só faz sentido quando também formamos corações dispostos a construir um mundo melhor.</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ÁREAS & TURMAS -->
-  <section class="alt-bg">
-    <div class="container">
-      <div class="reveal tc">
-        <div class="section-label">✦ Metodologia</div>
-        <h2 class="section-title">🎯 Nossas Áreas de Foco</h2>
-        <p class="section-sub tc" style="margin:0 auto 16px">No Clube Amplexo, trabalhamos com um currículo multidisciplinar para um desenvolvimento completo.</p>
+    <section class="learning section-pad">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow wine">Enriquecimento curricular</p>
+          <h2>Ambientes de aprendizagem</h2>
+        </div>
+        <div class="learning-grid">
+          <article class="learning-card reveal"><span>01</span><h3>Jornada Olímpica</h3><p>Preparamos e apoiamos cada estudante em sua jornada. Valorizamos todas as conquistas: com ou sem medalhas, cada passo importa.</p></article>
+          <article class="learning-card reveal"><span>02</span><h3>Calendário diversificado</h3><p>Uma programação rica e contínua amplia a experiência acadêmica e oferece diferentes frentes de desenvolvimento.</p></article>
+          <article class="learning-card reveal"><span>03</span><h3>Aulas, projetos e mentorias</h3><p>Conhecimento em movimento, com acompanhamento próximo, desafios significativos e espaço para a autoria dos estudantes.</p></article>
+          <article class="learning-card reveal"><span>04</span><h3>Parcerias e plataformas</h3><p>Medalhei, Educacross, SuperAutor, QuBits e Instituto Azlan somam inovação, tecnologia e novas oportunidades.</p></article>
+        </div>
+        <aside class="learning-callout reveal">
+          <h3>Acolhemos desde o primeiro passo. Preparamos para os maiores desafios.</h3>
+          <p>A alta performance nasce de uma base bem construída. Do nível básico ao avançado, o estudante encontra suporte, ferramentas e desafios para ir cada vez mais longe.</p>
+        </aside>
       </div>
-      <div class="info-grid reveal">
-        <div class="info-block">
-          <h3>➗📐 Matemática</h3>
-          <p>Focada em raciocínio lógico e na resolução de problemas. Base sólida para olimpíadas nacionais e internacionais.</p>
-        </div>
-        <div class="info-block">
-          <h3>🔬🚀 Ciências & Tecnologia</h3>
-          <p>Exploramos Astronomia, Ciências da Natureza e o que há de mais novo em Inovação e Computação (ACSL).</p>
-        </div>
-        <div class="info-block">
-          <h3>🌍💬 Linguagens & Estratégia</h3>
-          <p>Aprimoramento da escrita, pensamento crítico e raciocínio através de Jogos Estratégicos.</p>
-        </div>
-        <div class="info-block">
-          <h3>⏰ Horários Flexíveis</h3>
-          <ul>
-            <li><strong>EFI</strong> — 1º ao 5º ano</li>
-            <li><strong>EFII</strong> — 6º ao 9º ano</li>
-            <li>Noite durante a semana</li>
-            <li>Tarde nos finais de semana</li>
-          </ul>
-        </div>
-      </div>
-      <div style="text-align:center;margin-top:40px">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUua_CAhmNwv0sIfndhKfTLSTcGc-GPORm8v8bJSgAc5Z_cA/viewform" target="_blank" rel="noopener noreferrer" class="btn-outline">Lista de Espera 2026</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- PROFESSORA CLARISSA -->
-  <section>
-    <div class="container">
-      <div class="reveal tc" style="margin-bottom:48px">
-        <div class="section-label">✦ Nossa Professora</div>
-        <h2 class="section-title">Professora Clarissa Vergara</h2>
-      </div>
-      <div class="clarissa-wrap">
-        <div class="reveal-left">
-          <div class="clarissa-main-img">
-            <img src="assets/images/professora-clarissa.jpeg" alt="Professora Clarissa Vergara" loading="lazy" decoding="async">
-          </div>
-          <div class="clarissa-badge-row">
-            <span class="clarissa-badge">Membro Mensa</span>
-            <span class="clarissa-badge">Membro Intertel</span>
-            <span class="clarissa-badge">14+ Anos Exp.</span>
-          </div>
+    <section id="impacto" class="impact section-pad">
+      <div class="shell impact-grid">
+        <div class="impact-copy reveal">
+          <p class="eyebrow amber">Brands For Good Awards 2026</p>
+          <h2>Quando a educação gera impacto, o mundo reconhece!</h2>
+          <blockquote>“Receber esta distinção reconhece uma história construída por alunos, famílias, professores e parceiros que acreditam que a educação pode transformar vidas.”</blockquote>
+          <p class="signature">Clarissa Vergara · Fundadora e Diretora Executiva</p>
         </div>
-        <div class="clarissa-text reveal-right">
-          <p>Com mais de 14 anos de experiência na área da educação, Clarissa tem o prazer de compartilhar sua paixão pela aprendizagem com todos aqueles que buscam aprimorar seus conhecimentos e habilidades.</p>
-          <p>Seu objetivo é fornecer ferramentas eficazes para otimizar o processo de aprendizagem dos estudantes. Além disso, trabalha com orientação pedagógica de estudantes de alto desempenho, auxiliando-os a atingir seu potencial máximo.</p>
-          <p>Clarissa é membra da <strong>Intertel</strong> e <strong>Mensa</strong>, a maior, mais antiga e mais famosa sociedade de alto QI do mundo. Ela possui uma vasta experiência no treinamento para olimpíadas, tendo atuado como professora de Matemática para a <strong>OBM</strong>.</p>
-          <p>Sua formação inclui Licenciatura em Matemática, Pós-graduação em Neuropsicologia, e estudos complementares nas áreas de Neuropedagogia, Altas Habilidades/Superdotação e Gestão Escolar.</p>
-          <div style="margin-top:32px">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUua_CAhmNwv0sIfndhKfTLSTcGc-GPORm8v8bJSgAc5Z_cA/viewform" target="_blank" rel="noopener noreferrer" class="btn">Lista de Espera 2026</a>
-          </div>
-        </div>
+        <div class="award reveal"><img src="assets/images/brands-for-good-2026.png" alt="Selo Brands For Good Awards 2026 — Edu For Good Distinction" loading="lazy"></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- GALERIA -->
-  <section class="alt-bg">
-    <div class="container">
-      <div class="reveal tc">
-        <div class="section-label">✦ Nossa Comunidade</div>
-        <h2 class="section-title">Um time de campeões</h2>
-        <p class="section-sub" style="margin:0 auto">Um programa que une aprendizado, suporte às famílias e participação em competições nacionais e internacionais!</p>
-      </div>
-      <div class="gallery-grid">
-        <div class="gallery-item g-wide reveal">
-          <img src="assets/images/home-gallery-main.jpg" alt="Alunos Amplexo" loading="lazy" decoding="async">
+    <section class="contact section-pad">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <p class="eyebrow amber">Contatos</p>
+          <h2>Faça parte da comunidade Amplexo Educação</h2>
         </div>
-        <div class="gallery-item reveal">
-          <img src="assets/images/screenshot-20241118-154734.webp" alt="Premiação Amplexo" loading="lazy" decoding="async">
-        </div>
-        <div class="gallery-item reveal">
-          <img src="assets/images/whatsapp-20250921-100221-1.jpeg" alt="Conquistas Amplexo" loading="lazy" decoding="async">
-        </div>
-        <div class="gallery-item g-wide reveal">
-          <img src="assets/images/whatsapp-20250921-101405.jpeg" alt="Grupo Amplexo" loading="lazy" decoding="async">
+        <div class="contact-grid">
+          <a class="contact-card reveal" href="https://wa.me/5511911009793" target="_blank" rel="noopener"><span>WhatsApp</span><strong>(11) 91100-9793</strong><i>↗</i></a>
+          <a class="contact-card reveal" href="https://instagram.com/amplexoedu" target="_blank" rel="noopener"><span>Instagram</span><strong>@amplexoedu</strong><i>↗</i></a>
+          <a class="contact-card reveal" href="mailto:pedagogico@amplexoedu.com"><span>E-mail</span><strong>pedagogico@amplexoedu.com</strong><i>↗</i></a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <!-- SOBRE O CLUBE / MAIS INFO -->
-  <section>
-    <div class="container">
-      <div class="reveal tc" style="margin-bottom:48px">
-        <div class="section-label">✦ Mais Informações</div>
-        <h2 class="section-title">Sobre o Clube Amplexo</h2>
-      </div>
-      <div class="info-grid">
-        <div class="info-block reveal">
-          <h3>📚 Enriquecimento Curricular</h3>
-          <p>Nossos ambientes de aprendizagem têm foco em Matemática, Ciências, Astronomia, jogos estratégicos e tecnologia. Nosso objetivo é oferecer os desafios necessários para que as crianças se sintam confiantes em participar de competições ou estudar de maneira autônoma conteúdos que a escola regular não oferece.</p>
-        </div>
-        <div class="info-block reveal">
-          <h3>🏅 Jornada Olímpica</h3>
-          <p>Nosso setor de olimpíadas tem como foco preparar, mas também apoiar os alunos nessa jornada. Contamos com materiais direcionados para as principais olimpíadas nacionais e internacionais, cadernos de estudos, aulas e reuniões constantes.</p>
-          <p style="margin-top:12px">No Clube Amplexo, valorizamos todas as conquistas. Independentemente de medalhas ou troféus, cada passo é importante.</p>
-        </div>
-        <div class="info-block reveal">
-          <h3>🏫 Como Funciona</h3>
-          <ul>
-            <li>Aulas ao vivo, plantões de dúvidas e plataforma com aulas gravadas</li>
-            <li>Participação em Competições Olímpicas</li>
-            <li>Aulas do básico ao avançado</li>
-            <li>Eventos e atividades extras</li>
-            <li>Suporte para as famílias (Grupo no WhatsApp)</li>
-          </ul>
-        </div>
-        <div class="info-block reveal" style="border-color:var(--primary)">
-          <h3>📩 Garanta Sua Vaga!</h3>
-          <p>Inscreva-se na nossa lista de espera agora mesmo! Se ficou com alguma dúvida, envie um e-mail para <strong>pedagogico@amplexoedu.com</strong> ou nos chame pelo WhatsApp.</p>
-          <div style="margin-top:20px">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUua_CAhmNwv0sIfndhKfTLSTcGc-GPORm8v8bJSgAc5Z_cA/viewform" target="_blank" rel="noopener noreferrer" class="btn">Lista de Espera 2026</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- VÍDEOS -->
-  <section class="alt-bg">
-    <div class="container">
-      <div class="reveal tc" style="margin-bottom:48px">
-        <div class="section-label" style="display:block;width:fit-content;margin:0 auto 16px">✦ Mídia</div>
-        <h2 class="section-title">Assista Nossos Projetos</h2>
-      </div>
-      <div class="video-grid">
-        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/EFJvmzJsLIs" title="Amplexo Educação - Vídeo 1" allowfullscreen loading="lazy"></iframe></div>
-        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/ZCzVej_Iu9Y" title="Amplexo Educação - Vídeo 2" allowfullscreen loading="lazy"></iframe></div>
-        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/_UwVn2pgIDY" title="Amplexo Educação - Vídeo 3" allowfullscreen loading="lazy"></iframe></div>
-        <div class="video-wrap reveal"><iframe src="https://www.youtube.com/embed/XJdrybRyrh4" title="Amplexo Educação - Vídeo 4" allowfullscreen loading="lazy"></iframe></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA BAND -->
-  <div class="cta-band">
-    <div class="container">
-      <div class="reveal">
-        <h2 class="section-title">Invista no potencial do seu filho.</h2>
-        <p class="section-sub">Venha para a Amplexo e faça parte de um time de campeões. Aulas ao vivo de Matemática, Ciências da Natureza, Jogos Estratégicos e MUITO MAIS!<br>Nos chame no WhatsApp: <strong style="color:#fff">11 91100-9793</strong></p>
-        <div class="cta-btns">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUua_CAhmNwv0sIfndhKfTLSTcGc-GPORm8v8bJSgAc5Z_cA/viewform" target="_blank" rel="noopener noreferrer" class="btn large">Lista de Espera 2026</a>
-          <a href="https://wa.me/5511911009793" target="_blank" rel="noopener noreferrer" class="btn-outline large" style="border-color:#fff;color:#fff">WhatsApp</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- LIGHTBOX -->
-  <div id="lightbox" class="lightbox-overlay" role="dialog" aria-modal="true" aria-label="Visualizar imagem" aria-hidden="true">
-    <button id="lb-close" class="lightbox-close" aria-label="Fechar">&times;</button>
-    <button id="lb-prev" class="lightbox-nav lightbox-prev" aria-label="Imagem anterior">&#8249;</button>
-    <img id="lb-img" class="lightbox-img" src="" alt="" loading="lazy" decoding="async">
-    <button id="lb-next" class="lightbox-nav lightbox-next" aria-label="Próxima imagem">&#8250;</button>
-    <span id="lb-caption" class="lightbox-caption" aria-live="polite"></span>
-  </div>
-
-  <!-- FOOTER -->
-  <footer role="contentinfo">
-    <div class="container">
-      <div class="footer-inner">
-        <div>
-          <div class="footer-logo glitch" data-text="Clube Amplexo" aria-label="Clube Amplexo">Clube <span>Amplexo</span></div>
-          <p class="footer-desc">Clube de Enriquecimento Curricular &amp; Jornada Olímpica para mentes brilhantes. Todos os direitos reservados desde 2023.</p>
-          <div class="social-row">
-            <a href="https://www.instagram.com/amplexoedu" target="_blank" rel="noopener noreferrer" class="soc-btn" aria-label="Instagram">
-              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-            </a>
-            <a href="https://www.youtube.com/@Amplexoeducacao" target="_blank" rel="noopener noreferrer" class="soc-btn" aria-label="YouTube">
-              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-            </a>
-            <a href="https://www.linkedin.com/company/amplexo-educa%C3%A7%C3%A3o/" target="_blank" rel="noopener noreferrer" class="soc-btn" aria-label="LinkedIn">
-              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            </a>
-            <a href="https://amplexoedu.github.io/" target="_blank" rel="noopener noreferrer" class="soc-btn" aria-label="GitHub">
-              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
-            </a>
-          </div>
-        </div>
-        <div class="footer-col">
-          <h4>Contato</h4>
-          <a href="mailto:pedagogico@amplexoedu.com">✉️ pedagogico@amplexoedu.com</a>
-          <a href="mailto:amplexoedu@gmail.com">✉️ amplexoedu@gmail.com</a>
-          <a href="https://wa.me/5511911009793" target="_blank" rel="noopener noreferrer">📱 +55 (11) 9 1100-9793</a>
-        </div>
-        <div class="footer-col">
-          <h4>Links</h4>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUua_CAhmNwv0sIfndhKfTLSTcGc-GPORm8v8bJSgAc5Z_cA/viewform" target="_blank" rel="noopener noreferrer">Lista de Espera 2026</a>
-          <a href="./escola-azul/">Projeto Escola Azul</a>
-          <a href="https://amplexoedu.github.io/" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="./en/">🇺🇸 English Version</a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>© 2026 Clube Amplexo Educação. All rights reserved since 2023.</p>
-        <div class="badge-row">
-          <a href="https://www.thegreenwebfoundation.org/green-web-check/?url=amplexoedu.com" target="_blank" rel="noopener noreferrer" class="green-badge">🌿 Green Web Checked</a>
-          <a href="https://transparencyreport.google.com/safe-browsing/search?url=amplexoedu.com" target="_blank" rel="noopener noreferrer" aria-label="Google Site Seguro">
-            <img src="assets/images/site-seguro-badge.png" alt="Site Seguro" loading="lazy" decoding="async" style="height:90px;object-fit:contain;">
-          </a>
-        </div>
-      </div>
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div><strong>Amplexo Educação</strong><p>Excelência acadêmica educando para o bem.</p></div>
+      <p>Política de Privacidade · Termos · Acessibilidade</p>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script>
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+    }), { threshold: .12 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
